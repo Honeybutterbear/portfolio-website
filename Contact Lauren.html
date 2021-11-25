@@ -21,8 +21,13 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=League+Script&display=swap" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="css/style.production.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
   </head>
 
 <body>
@@ -51,10 +56,10 @@
 </div>
 
   <div>
-    <a href="mailto:lauren@notarealaddress.com">Contact Me!</a><br>
+    <a href="mailto:lauren@notarealaddress.com"> <h1 class="contacthead">Contact Me!</h1></a><br>
   </div>
 
-  <div>
+  <div class="contactinfo">
     Somewhere Awesome<br>
     In The USA<br><br>
     Tel: <a href="tel:1234567890">(123) 456.7890</a><br>
@@ -63,7 +68,7 @@
   </div>
 
 
-   <form>
+   <form class="contactinfoend">
    <form action"" method="post" id="contact form">
    <label class="standard label" for="contact-email">Email:*</label>
    <input type="email" id="contact-email" required>
@@ -78,24 +83,26 @@
 
     <!-- COMBAK:
      -->
-    <footer>
+     <footer class="page-footer">
       <p>Keep up with me</p>
+       <div class="social-media">
       <!-- facebook svg -->
       <a href="https://www.facebook.com/">
-      <img src="svg/facebook.svg" width="30px" height="30px" alt ="facebook icon" >
+      <img src="svg/facebook.svg" width="30px" height="30px" alt ="facebook icon" class="facebook_icon">
       </a>
       <!-- instagram svg -->
       <a href="https://www.instagram.com/">
-      <img src="svg/instagram.svg" width-"30px" height ="30px" alt ="instagram icon" >
+      <img src="svg/instagram.svg" width-"30px" height ="30px" alt ="instagram icon" Class="instagram_icon">
       </a>
       <!-- twitter svg -->
       <a href="https://twitter.com/">
-      <img src="svg/twitter.svg" width="30px" height="30px" alt ="twitter icon" >
+      <img src="svg/twitter.svg" width="30px" height="30px" alt ="twitter icon" class="twitter_icon">
       </a>
-     </footer>
+       </div>
+     </footer class="page-footer">
 
      <script src="js/tota11y.min.js"></script>
 
-</body>
+     </body>
 
-</html>
+     </html>

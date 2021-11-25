@@ -18,7 +18,7 @@ Darker Grotesque Opt: 300 to 900
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
   --background-color: #E58052;
-  --heading-family: 'Poiret One', sans-serif;
+  --heading-family: 'Reenie Beanie', cursive;
   --subheading-family: 'Darker Grotesque', sans-serif;
   --font-weight: 400;
   --font-size: 16px;
@@ -27,7 +27,7 @@ Darker Grotesque Opt: 300 to 900
 }
 
 body {
- background-image: url("../img/cactusleft.jpg");
+ background-image: url("../img/dback2.jpg");
  background-color: var(--background-color);
  background-position: center;
  background-position: bottom;
@@ -116,11 +116,12 @@ h1 {
   font-family: var(--heading-family);
   color: white;
   text-shadow: 2px 2px 4px #000000;
+  font-size: 45px
 }
 
 h2 {
   font-family: var(--heading-family);
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 700;
 }
 
@@ -139,7 +140,7 @@ p {
 
 p {
   color: var(--text-color);
-  text-shadow: 2px 2px 4px #000000;
+
 }
 
 
@@ -181,7 +182,8 @@ a:active {
 /* ! B U T T O N S ! */
 
 button,
-.button {
+.button,
+.button2 {
   /* overwrites browser defaults and resets the border */
   border: none;
   /* takes the font from the outer container */
@@ -202,7 +204,9 @@ button,
 button:hover,
 button:focus,
  .button:hover,
- .button:focus {
+ .button:focus,
+ .button2:hover,
+ .button2:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
   /* reduces the opacity of the button to 80% */
@@ -249,6 +253,10 @@ button:focus,
   filter: invert(100%) sepia(1%) saturate(5974%) hue-rotate(105deg) brightness(109%) contrast(100%);
 }
 
+.about_graphic {
+  align-content: center;
+}
+
 
 
 /* P!A!G!E S!P!E!C!I!F!I!C C!S!S B!E!G!I!N!S */
@@ -271,6 +279,7 @@ button:focus,
   max-width: 700px;
   margin: 0 auto;
   text-align: left;
+  padding-bottom: 15%;
 }
 
   /* P!A!G!E S!P!E!C!I!F!I!C C!S!S */
@@ -406,7 +415,7 @@ background: url(../img/dback.jpg);
 }
 
 .likes li {
-      display: center;
+      display: inline-flex;
   }
 }
 
@@ -427,6 +436,7 @@ background: url(../img/dback.jpg);
     display: block;
     flex-direction: column;
     margin: auto;
+    margin-bottom: -70px;
     text-align: center;
   }
 
@@ -474,6 +484,47 @@ background: url(../img/dback.jpg);
   animation-timing-function: linear;
 }
 
+.rowa {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 50%;
+  align-items: center;
+
+}
+
+.rowb {
+  display: flex;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  justify-content: space-between;
+}
+
+.table {
+  padding-bottom: 50px;
+}
+
+.likes {
+  font-size: 25px;
+}
+
+.th {
+  font-size: 25px;
+}
+
+.td {
+  font-size: 25px;
+}
+
+
+
 @keyframes ground-move {
   from {
     transform: translate(0, 50px);
@@ -497,7 +548,20 @@ background: url(../img/dback.jpg);
  animation-timing-function: linear;
 }
 
+/*CONTACT*/
 
+.contactinfo {
+text-align: center;
+}
+
+.contactinfoend {
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.contacthead {
+  text-align: center;
+}
 
 /* M!U!S!T C!O!M!E L!A!S!T */
 
