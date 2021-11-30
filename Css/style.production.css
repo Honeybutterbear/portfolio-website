@@ -144,7 +144,7 @@ h3 {
 p {
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 25px;
-  font-weight: 700px;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -160,7 +160,7 @@ p {
 a {
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 500;
   color: #ffffff;
 }
 
@@ -168,7 +168,7 @@ a:visited {
   /* visited link */
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 500;
   color: #DADBEE;
 }
 
@@ -176,7 +176,7 @@ a:hover {
   /* No underlining when hovering over a link */
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 500;
 
   color: #ffffff;
 }
@@ -185,7 +185,7 @@ a:focus {
   /* No underlining when hovering over a link */
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 500;
 
   color: #ffffff;
 }
@@ -194,7 +194,7 @@ a:active {
   /* selected link */
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: 500;
   color: #FFBE99;
 }
 
@@ -412,7 +412,7 @@ background: url(../img/dback.jpg);
    margin: 0;
  }
 
- .grid__item_home, {
+ .grid__item_home {
    width: auto;
    min-height: auto;
    margin: 0;
@@ -446,7 +446,7 @@ background: url(../img/dback.jpg);
 
 }
 
-.grid, {
+.grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 300px 20px 300px 20px 300px;
@@ -474,7 +474,6 @@ background: url(../img/dback.jpg);
   grid-gap: 20px;
   padding-left: 5%;
   padding-right: 5%;
-      grid-template-areas: 20px;
 }
 
 .grid__item_home {
@@ -485,7 +484,6 @@ background: url(../img/dback.jpg);
   grid-gap: 20px;
   padding-left: 5%;
   padding-right: 5%;
-      grid-template-areas: 1px;
 }
 
 
